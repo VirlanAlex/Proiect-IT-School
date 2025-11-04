@@ -11,7 +11,7 @@ public class Hotel {
     public int numarStele;
     public List<String> facilitati;
 
-    public Hotel(String nume, String adresa, String oras, String tara, List<String> facilitati, int stele) {
+    public Hotel(String nume, String adresa, String oras, String tara,int stele, List<String> facilitati) {
         this.nume = nume;
         this.adresa = adresa;
         this.oras = oras;
