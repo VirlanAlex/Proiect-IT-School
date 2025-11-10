@@ -17,6 +17,6 @@ public class Sportiv extends Persoana {
         infoPersoana();
         System.out.println("Sportul este " + sport);
         System.out.println("Sportivul face parte dintr-o echipa?" + sportEchipa);
-        System.out.println("Experienta sportivuluiu este de " +experienta);
+        System.out.println("Experienta sportivului este de " +experienta);
     }
 }
