@@ -6,8 +6,8 @@ public class MostenireTest {
 
     @Test
 
-    public void metodaTest(){
-        Angajat angajat = new Angajat("Popescu", "Andrei",30,"Luptei 40", "Emerson", 2500, "nedeterminat", 10);
+    public void metodaTest() {
+        Angajat angajat = new Angajat("Popescu", "Andrei", 30, "Luptei 40", "Emerson", 2500, "nedeterminat", 10);
         angajat.infoAngajat();
         System.out.println();
         angajat.getSalariu();
@@ -22,9 +22,12 @@ public class MostenireTest {
         System.out.println(angajat.getVarsta());
 
         angajat.mananca();
-        angajat.afiseazaDetalii("Alte",true);
+        angajat.afiseazaDetalii("Alte", true);
         angajat.afiseazaDetalii("Altex");
         angajat.afiseazaDetaliile();
+        angajat.ajungeLaTimpLaBirou();
+        angajat.respectaRegulamentulIntern();
+        angajat.munceste();
 
         System.out.println();
         Sportiv sportiv = new Sportiv("Dumitru", "Sebastian", 34, "Viitorului 10", "fotbal", true, 6);
@@ -33,10 +36,17 @@ public class MostenireTest {
         sportiv.cautaSportivi("Fotbal", 3);
 
         sportiv.mananca();
+        sportiv.mergeLaAntrenamente();
+        sportiv.participaLaCompetitii();
+        sportiv.respectaRegimul();
+
         System.out.println();
-        Student student = new Student("Robert", "Petrovici",35,"Electronicii 2", "Ion Mincu Timisoara","IT",2025,false);
+        Student student = new Student("Robert", "Petrovici", 35, "Electronicii 2", "Ion Mincu Timisoara", "IT", 2025, false);
         student.infoStudent();
         student.mananca();
+        student.mergeLaCursuri();
+        student.trebuieSaStudieze();
+        student.saNuAibaRestante();
 
     }
 }
