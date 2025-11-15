@@ -16,10 +16,10 @@ public class Student extends Persoana implements StudentInterface {
     }
     public void infoStudent(){
 
-        System.out.println(" Facultatea la care studiaza este " +facultate);
-        System.out.println(" Domeniul in care lucreaza este " + domeniu);
-        System.out.println(" In ce an este studentul? " +anul);
-        System.out.println(" Are restante? " +restante);
+        System.out.println("Facultatea la care studiaza este " +facultate);
+        System.out.println("Domeniul in care lucreaza este " + domeniu);
+        System.out.println("In ce an este studentul? " +anul);
+        System.out.println("Are restante? " +restante);
 
     }
 
@@ -37,7 +37,7 @@ public class Student extends Persoana implements StudentInterface {
     }
 
     public void cautaStudent(boolean restante){
-        System.out.println(" Afisez studentii cu restanta? " + restante);
+        System.out.println("Afisez studentii cu restanta? " + restante);
     }
 
     public String getFacultate() {

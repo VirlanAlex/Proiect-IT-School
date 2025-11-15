@@ -25,15 +25,15 @@ public class Sportiv extends Persoana implements SportivInterface {
     }
 
     public void cautaSportivi(){
-        System.out.println(" Afisez toti sportivii inregistrati");
+        System.out.println("Afisez toti sportivii inregistrati");
     }
 
     public void cautaSportivi(String sport){
-        System.out.println(" Afisez sportivii care practiva sportul " + sport);
+        System.out.println("Afisez sportivii care practiva sportul " + sport);
     }
 
     public void cautaSportivi(String sport, int experienta){
-        System.out.println(" Afisez sportivii cu " +experienta + " ani "+ "Care practica sportul " +sport);
+        System.out.println("Afisez sportivii cu " +experienta + " ani "+ "Care practica sportul " +sport);
     }
 
     public String getSport() {

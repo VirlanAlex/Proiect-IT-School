@@ -5,11 +5,9 @@ public class AngajatSportivStudent extends Persoana implements StudentInterface,
     private double salariu;
     private String contract;
     private int zileLibere;
-
     private String sport;
     private boolean sportEchipa;
     private int experienta;
-
     private String facultate;
     private String domeniu;
     private int anul;
