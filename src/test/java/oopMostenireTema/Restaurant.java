@@ -29,18 +29,22 @@ public class Restaurant {
     }
 
     public String getNume() {
+
         return nume;
     }
 
     public void setNume(String nume) {
+
         this.nume = nume;
     }
 
     public String getAdresa() {
+
         return adresa;
     }
 
     public void setAdresa(String adresa) {
+
         this.adresa = adresa;
     }
 
@@ -49,18 +53,22 @@ public class Restaurant {
     }
 
     public void setTip(String tip) {
+
         this.tip = tip;
     }
 
     public double getRating() {
+
         return rating;
     }
 
     public void setRating(double rating) {
+
         this.rating = rating;
     }
 
     public boolean isDeschis() {
+
         return deschis;
     }
 

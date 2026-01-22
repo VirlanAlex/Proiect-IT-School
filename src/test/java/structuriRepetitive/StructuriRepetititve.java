@@ -8,29 +8,43 @@ public class StructuriRepetititve {
 
     @Test
 
-    public void metodaTest(){
+    public void metodaTest() {
 
 //         afisareNumere(100);
-         afisareNumerePare(50);
+//         afisareNumerePare(50);
+        afisareNumereWhile(100);
     }
 
 //    Afisam primele n numere
 
-    public void afisareNumere(int capat){
+    public void afisareNumere(int capat) {
 
-        for (int index=0;index<=capat;index++){
+        for (int index = 0; index <= capat; index++) {
 
-            System.out.println("Vreau sa afisez numarul "+index);
+            System.out.println(" Vreau sa afisez numarul " + index);
         }
 
 //        Afisam numere pare de la 0 la 50
 
     }
-    public void afisareNumerePare(int capat){
 
-        for (int index=0;index<=capat;index++){
+
+    //Metoda de mai sus cu "for" facuta cu "while"
+
+    public void afisareNumereWhile(int capat) {
+
+        int index = 0;
+        while (index <= capat) {
+            System.out.println(" Vreau sa afisez numarul" + index);
+            index++;
+        }
+    }
+
+    public void afisareNumerePare(int capat) {
+
+        for (int index = 0; index <= capat; index++) {
             if (index % 2 == 0) {
-                System.out.println("Vreau sa afisez:" +index);
+                System.out.println("Vreau sa afisez:" + index);
             }
         }
 
